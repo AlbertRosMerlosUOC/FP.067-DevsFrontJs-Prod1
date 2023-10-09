@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FP.067-DevsFrontJs-Prod1';
+  title = 'MI VIAJE';
 }
