@@ -29,7 +29,6 @@ export class DetailComponent implements OnInit {
     modal?.classList.remove('show');
     modal?.setAttribute('style', 'display: none');
 
-    // Pausar el video cuando el modal se cierra
     let videoElement: HTMLVideoElement | null = document.querySelector('#modal-viaje-'+this.componentId+'-'+viaje.id+' video');
     if (videoElement) {
       videoElement.pause();
